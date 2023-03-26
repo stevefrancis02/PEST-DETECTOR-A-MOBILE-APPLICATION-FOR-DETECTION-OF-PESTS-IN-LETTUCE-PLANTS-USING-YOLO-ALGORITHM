@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pest Detector</string>
+    <string name="first_slide_title">Welcome to Pest Detector</string>
+    <string name="second_slide_title">Real-time Detection</string>
+    <string name="third_slide_title">Information of pests</string>
+    <string name="first_slide_title_desc">In this app, we help you identify common pests in your garden or home. Our easy-to-use tool will help you determine which pests you are dealing with.</string>
+    <string name="second_slide_title_desc">Real-time detection of pests in your crops. Identify pests and take action to protect your crops with this application.</string>
+    <string name="third_slide_title_desc">The application show some brief information about pests like aphids, cutworms, leaf miners, slugs and whiteflies.</string>
+
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+</resources>

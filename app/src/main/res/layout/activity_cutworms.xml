@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F9F9"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/dpcutwormblur"
+            android:orientation="vertical"
+            android:scaleType="centerCrop">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="228dp"
+                android:layout_height="154dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="35dp"
+                android:foregroundGravity="center_horizontal"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="5dp"
+                app:strokeColor="@color/white">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="#000000"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/dpcutworm" />
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15sp"
+                    android:text="Cutworms"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Also known as: "
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="130dp"
+                    android:text="Spodoptera litura"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="italic|bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="60dp"
+                    android:text="dark sword-grass, black cutworm, greasy cutworm, floodpain cutworm, ipsilon dart, bogong moth, night-flying moth"
+                    android:paddingLeft="12dp"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="italic|bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="130dp"
+                    android:text="Scientific Name:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Local Names:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="160dp"
+                    android:text="arabas, harabas, tagustos"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="italic|bold" />
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            app:cardCornerRadius="0dp"
+            android:layout_marginTop="14dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/image"
+                    android:alpha="0.3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="14dp"
+                    android:text="Images of Cutworms"
+                    android:textColor="#9B9B9B"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:columnCount="2"
+                    android:rowCount="2"
+                    android:padding="10dp">
+
+                    <ImageView
+
+                        android:layout_width="10px"
+                        android:layout_height="10px"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="1dp"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/p1" />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/p2"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:padding="10dp"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/p3"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:layout_rowWeight="1" />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/p4"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:layout_rowWeight="1" />
+                    <ImageView
+                        android:layout_width="10px"
+                        android:layout_height="10px"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="1dp"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/p5" />
+                    <ImageView
+                        android:layout_width="10px"
+                        android:layout_height="10px"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="1dp"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/p6" />
+
+                    <!-- Add more ImageViews here for the rest of the grid -->
+                </GridLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/description" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="14dp"
+                    android:text="Description"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="50dp"
+                    android:padding="14dp"
+                    android:text="Cutworms are caterpillars that curl tightly into the shape of a 'C' when disturbed. They have plump bodies, smooth skin, and a moist or oily feel. The grayish brown and light brown-speckled variegated cutworm has a single row of pale yellow dots running down either side of its body. "
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/characteristic"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="14dp"
+                    android:text="Characteristics"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Size"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="70dp"
+                    android:text="1-1.75 in"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="108dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/color"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="95dp"
+                    android:text="Color"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/rectangle_brown" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brown"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/rectangle_pinkishtan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pinkish Tan"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="97dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="155dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/rectangle_shape" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Green"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="163dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/rectangle_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gray"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="211dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="243dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/rectangle_black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Black"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="253dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="148dp"
+                    android:text="Habitat"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="168dp"
+                    android:paddingRight="20dp"
+                    android:text="The risk of infestations is highest in crops when dense cover crops or weeds are present at or shortly before crop emergence. They can be observed lying on the ground or partially buried, and cutworms are most noticeable when there are skips or portions of rows when all the plants are missing. "
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/distributionarea"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Distribution Area"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="50dp"
+                    android:padding="14dp"
+                    android:text="Common in temperate zones."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="73dp"
+                    android:padding="14dp"
+                    android:text="Home gardens."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/bug"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Scientific Classification"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Genus: "
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Agrotis"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="85dp"
+                    android:text="Noctuidae"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="85dp"
+                    android:text="Family:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Order:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Lepidoptera"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="135dp"
+                    android:text="Class:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="135dp"
+                    android:text="Insecta"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Phylum:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Anthropoda"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1450dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/identify"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="How to identify it?"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="12"
+                    android:columnCount="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="15dp"
+                        android:textStyle="bold"
+                        android:text="Adult"
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="The adults have 2 pairs of wings and whose wingspan varies from 25 to 45 mm for the species of interest to us. The fore and hind wings present a variable coloring according to the species (reddish brown, brown, gray), as well as more or less characteristic patterns."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cadult"
+                        android:layout_column="0"
+                        android:layout_row="2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pupa"
+                        android:textColor="#797979"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:textStyle="bold"
+                        android:layout_column="0"
+                        android:layout_row="3" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="4"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="The pupa, which measure from 2 to 2.8 cm, has reddish-brown color and can be found at or below soil level. The pupal stage generally lasts 21 to 34 days, but can take longer, depending on the temperature. "
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cpupa"
+                        android:layout_column="0"
+                        android:layout_row="5" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Larva"
+                        android:textColor="#797979"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:textStyle="bold"
+                        android:layout_column="0"
+                        android:layout_row="6" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="7"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="The hatch caterpillars measuring 25 to 50 mm depending on the species, equipped with powerful mandibles that allow them to constantly consume plants, especially leave. These caterpillars have a color of green, sometimes becoming brown to reddish as they age, gray-brown with longitudinal black dots, moult several times before pupation or chrysalization."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/clarva"
+                        android:layout_column="0"
+                        android:layout_row="8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Egg"
+                        android:textColor="#797979"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:textStyle="bold"
+                        android:layout_column="0"
+                        android:layout_row="9" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="10"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="The eggs color are transparent, white, or black-brown with a diameter less than a millimeter, are deposited singly or in groups on the surfaces of the leaves or various supports. A cutworm will typically lay 350-800 pearl-shaped eggs."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cegg"
+                        android:layout_column="0"
+                        android:layout_row="11" />
+
+
+                </GridLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/damage"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Damage"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="3"
+                    android:columnCount="1">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cutworms are pests that feed on seedlings and chew leaves that touch the ground, and occasionally bore into cabbage heads, usually feeding at night and found during the day just below the soil surface or under dirt clods."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="0" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:text="Cutworms damage seedlings and young plants by clipping them off at or just below ground level and they cause severe losses in fields, especially when they are present in large numbers before planting and the damage recurs year after year."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="850dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/prevention"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Preventions"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="10"
+                    android:columnCount="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mow as closely as possible to the edge of your garden to give cutworms less to feed on and less shelter near your plants."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="0" />
+
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cp1"
+                        android:layout_column="0"
+                        android:layout_row="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A three-foot wide (or more) bare-soil strip between your lawn and your garden plants makes it harder for larvae to reach your plants."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="2" />
+
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cp2"
+                        android:layout_column="0"
+                        android:layout_row="3" />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Plant sunflowers along the edge of your garden."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="4" />
+
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cp3"
+                        android:layout_column="0"
+                        android:layout_row="5" />
+
+                </GridLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1050dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/solution"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Solutions"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="20"
+                    android:columnCount="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cultural Control"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="0" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Plowing of all fallow land exposes dormant pupae to desiccation and beneficial organisms (predators)."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="1" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bund shaving kills pupae."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Young seedlings in seedbeds away from large areas of weeds are less prone to larval attack."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Flooding of nursery beds and stubble prevents larvae migration and reduces survival."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Handpicking of egg masses and larvae from trap crops (Castor) on alternate days following the warning from the pheromone traps reduces their population."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cutting tops of bundled seedlings before transplanting removes egg masses."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="6" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reducing application of nitrogenous fertilizer lessens their attack."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="7" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Clean cultivation exposes pupa to natural enemies and induces weather-related mortality."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="8" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Biological Control"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="9" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Small wasps attack eggs."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="10" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Big wasps and tachinid flies kill larvae. Virus infection by NPV is rampant at the larval stage."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="11" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ants feed on eggs and larvae; Spiders, especially the hunting spiders, prey on adults."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="12" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Other predators are ladybird beetles and insectivorous birds (Drongo-Dicrurus adsimilis)"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="13" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Long-horned grasshopper feeds on egg masses."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="14" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Larvae are susceptible to bacterial infections."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pheromone trapping"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="16" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pheromone traps, which are commercially available are very effective in knowing the activity of the adults. They also predict egg laying."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="17" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chemical Control"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="18" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sprays are more effective than granules. Spray late in the afternoon. Mix a little brown sugar to increase intake of insecticide by larvae. Mature larvae do not feed voraciously before pupation and tend to go inside the soil for pupation."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="19" />
+
+
+
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

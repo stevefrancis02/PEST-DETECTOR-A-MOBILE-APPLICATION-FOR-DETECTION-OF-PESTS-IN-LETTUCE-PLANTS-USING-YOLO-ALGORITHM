@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F9F9"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/ppwhitefliesblur"
+            android:orientation="vertical"
+            android:scaleType="centerCrop">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="228dp"
+                android:layout_height="154dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="35dp"
+                android:foregroundGravity="center_horizontal"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="5dp"
+                app:strokeColor="@color/white">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="#000000"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/ppwhiteflies" />
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15sp"
+                    android:text="Whiteflies"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Also known as: "
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="100dp"
+                    android:text="Aleyrodidae"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="italic|bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="60dp"
+                    android:text="aleyrodes proletella, cabbage whitefly, silver whitefly, greenhouse whitefly"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="italic|bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="100dp"
+                    android:text="Scientific Name:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            app:cardCornerRadius="0dp"
+            android:layout_marginTop="14dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/image"
+                    android:alpha="0.3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="14dp"
+                    android:text="Images of Whiteflies"
+                    android:textColor="#9B9B9B"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:columnCount="2"
+                    android:rowCount="2"
+                    android:padding="10dp">
+
+                    <ImageView
+
+                        android:layout_width="10px"
+                        android:layout_height="10px"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="1dp"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/w1" />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/w2"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:padding="10dp"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/w3"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:layout_rowWeight="1" />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/w4"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:layout_rowWeight="1" />
+                    <ImageView
+                        android:layout_width="10px"
+                        android:layout_height="10px"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="1dp"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/w5" />
+                    <ImageView
+                        android:layout_width="10px"
+                        android:layout_height="10px"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="1dp"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/w6" />
+
+                    <!-- Add more ImageViews here for the rest of the grid -->
+                </GridLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/description" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="14dp"
+                    android:text="Description"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="50dp"
+                    android:padding="14dp"
+                    android:text='Whiteflies, despite their name, are not genuine flies but rather members of the order Hemiptera, which includes aphids, scale insects, and mealybugs. The mealy white wax that covers the adult&apos;s wings and body gave them their name. Adults are little insects with four whitish wings and a yellowish body. '
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/characteristic"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="14dp"
+                    android:text="Characteristics"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Size"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Approximately 1.5mm"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="108dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/color"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="95dp"
+                    android:text="Color"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/white_shape" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="White"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="58dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="106dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/ginger_brown" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transparent Yellow"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="113dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="148dp"
+                    android:text="Habitat"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="168dp"
+                    android:paddingRight="20dp"
+                    android:text="Whiteflies are typically found on the underside of plant leaves, and have a large list of hosts. Some ornamental plants are susceptible to silverleaf whitefly infestations."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/distributionarea"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Distribution Area"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="50dp"
+                    android:padding="14dp"
+                    android:text="United States, Mexico ,Central and South America, Carribean Islands, Africa, Asia, Europe, and Australia."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="95dp"
+                    android:padding="14dp"
+                    android:text="Most plants in yards and gardens."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/bug"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Scientific Classification"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Genus: "
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Bemista"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="85dp"
+                    android:text="Aleyrodidae"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="85dp"
+                    android:text="Family:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Order:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Hemiptera"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="135dp"
+                    android:text="Class:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="135dp"
+                    android:text="Insecta"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Phylum:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Anthropoda"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1500dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/identify"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="How to identify it?"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="12"
+                    android:columnCount="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="15dp"
+                        android:textStyle="bold"
+                        android:text="Adult"
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="The adults have 2 pairs of wings, their size different according to the sex: 1.1 mm for females and 0.9 mm for males. The body and wings are coated with a characteristic white waxy powder."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wadult"
+                        android:layout_column="0"
+                        android:layout_row="2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pupa"
+                        android:textColor="#797979"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:textStyle="bold"
+                        android:layout_column="0"
+                        android:layout_row="3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="4"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="Whitefly pupae have oval shapes and vertical sides, which from the side give them a cake-like appearance. There is a fringe of wax filaments that extends above the upper surface of the body along the perimeter of the upper surface. It is known as a puparium once its red eyes have appeared."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wpupa"
+                        android:layout_column="0"
+                        android:layout_row="5" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Larva"
+                        android:textColor="#797979"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:textStyle="bold"
+                        android:layout_column="0"
+                        android:layout_row="6" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="7"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="The hatch larvae, between 7 and 10 days later,  these, flat and oval and resembles a small scale insect. Both legs and antennae are lost after the first moult, and subsequent nymphs remain fixed to the leaf surface and it measure 0.3 mm.
+The second instar larvae are flattened, transparent and measure 0.37 mm. The third and fourth instar larvae are quite comparable, but with respective lengths of 0.51 and 0.73 mm. In the last larval stage, the insect secretes wax."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wlarva"
+                        android:layout_column="0"
+                        android:layout_row="8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Egg"
+                        android:textColor="#797979"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:textStyle="bold"
+                        android:layout_column="0"
+                        android:layout_row="9" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="10"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="The eggs are mainly found underside of the leaves. It is a white color oval shape and have a diameter of 0.25 mm. In the days following the laying, they turn dark."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="420dp"
+                        android:layout_height="300dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wegg"
+                        android:layout_column="0"
+                        android:layout_row="11" />
+
+
+
+                </GridLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/damage"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Damage"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="3"
+                    android:columnCount="1">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Whiteflies are pests that suck sap from plants using their needle-like mouthparts and can cause yellowing and drying of leaves. They excrete honeydew that attracts ants and causes black sooty mold. This interference with natural enemies can lead to increased whitefly populations."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The sweetpotato whitefly (Bemisia tabaci) can cause plant damage and loss in vegetable crops and may also transmit viruses. Whiteflies are not usually a problem in fruit trees, but their populations can increase in citrus, pomegranate, and avocado."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="1" />
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="2360dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/prevention"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Preventions"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="20"
+                    android:columnCount="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Learn to recognize beneficial insects. Among the most important natural enemies of whiteflies are the tiny parasitic wasps that lay their eggs inside the bodies of whiteflies. These tiny wasps cannot sting people."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="0"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pw1"
+                        android:layout_column="0"
+                        android:layout_row="1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Attract beneficial to your garden by planting a wide variety of flowering plants or certain insectary plants can provide beneficial insects with the habitant they need. Natural enemies that attack many whiteflies are small birds, spiders, lacewings, ladybugs, and big eyed bugs"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="2"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pw2"
+                        android:layout_column="0"
+                        android:layout_row="3"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Inspect new plants carefully. Don’t purchase infected plants."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="4"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pw3"
+                        android:layout_column="0"
+                        android:layout_row="5"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Hang sticky traps above the plants at the beginning of the season to detect an invasion early."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="6"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pw4"
+                        android:layout_column="0"
+                        android:layout_row="7"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Use slow-release fertilizers. Maintain healthy plant growth, but do not over-fertilize with high nitrogen fertilizers. Too much nitrogen can overstimulate succulent plant growth, prompting some aphids to reproduce more quickly. Organic fertilizers are better because they slowly release moderate levels of nutrients."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="8"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pw5"
+                        android:layout_column="0"
+                        android:layout_row="9"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Avoid excessive pruning because it stimulates whitefly-attracting growth."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="10"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pw6"
+                        android:layout_column="0"
+                        android:layout_row="11"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Use a row cover to exclude whitefly and other pests but allow air, light, and irrigation water to reach plants."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="12"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pw7"
+                        android:layout_column="0"
+                        android:layout_row="13"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Control ants by spraying or painting a 4” wide sticky barrier around woody shrubs or trees. For many sensitive trees, such as citrus, a protective barrier of white latex paint should be applied to the trunk before sticky barrier."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="14"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pw8"
+                        android:layout_column="0"
+                        android:layout_row="15"/>
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1530dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/solution"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Solutions"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="20"
+                    android:columnCount="1">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Managing heavy whitefly infestations is challenging. Preventing infestations is the best approach. Natural enemies can often control whiteflies, but their effectiveness can be reduced by insecticides, dust, and ant interference. To prevent outbreaks, avoid or remove plants that regularly host high numbers of whiteflies."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="0" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In gardens, controlling whiteflies can be achieved through early removal of infested leaves, hosing down with water sprays, using reflective mulches, monitoring with yellow sticky traps, or using insecticidal soaps/oils like neem oil, but systemic insecticides may be more effective but have negative effects on beneficial insects and pollinators."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To control whiteflies, vacuum the adults from leaves, use insecticidal soap every 2 to 3 days for 2 weeks, spray with light horticultural oil to suffocate the insects, or as a last resort, use pyrethrum which will paralyze the pests. The soap must come into direct contact with the insects to be effective."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="2" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Biological Control"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Whiteflies have many natural predators such as lacewings, big-eyed bugs, minute pirate bugs, lady beetles and scale predators which can control their populations. Outbreaks of whiteflies occur when these natural enemies are disturbed or destroyed by factors such as pesticides, dust buildup, etc."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Whiteflies have naturally occurring parasites that can control their populations, particularly in greenhouses. However, these parasites are not suitable for outdoor use in temperate zones."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="It is crucial to avoid using insecticides that harm natural enemies in whitefly management, as insecticides like carbaryl, pyrethroids, and imidacloprid can disrupt the balance. Controlling dust and ants, which protect whiteflies from natural enemies, is also important, especially in citrus and other trees."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="6" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reflective Mulches"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="7" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shiny metallic-coated construction paper or reflective plastic mulches can be used to repel whiteflies from gardens. Holes should be cut in the mulch to plant seeds or single transplants, and the edges should be buried with soil to hold them down. Reflective mulches have been shown to enhance crop growth, control weeds and deter pests that transmit viruses, leading to reduced disease incidence and crop loss. The mulch should be removed during high summer temperatures to prevent overheating of plants."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Traps"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="9" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yellow sticky traps can be used to monitor and detect whiteflies in vegetable gardens, but won't eliminate them. Commercial traps are available or you can make your own by painting 1/4-inch plywood or masonite board bright yellow, and mounting it on pointed wooden stakes close to the plants. The sticky surface can be made from a mixture of petroleum jelly or mineral oil and household detergent, which can be easily cleaned off with soap and water. Cleaning the traps periodically is essential to remove insects and debris and maintain the stickiness."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="10" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Insecticide Sprays"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="11" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Whiteflies can be difficult to control with insecticides and most products only control whiteflies that are directly sprayed. Insecticidal soaps and neem oil are less-toxic options but require thorough coverage of the plant and repeat applications. Imidacloprid, a soil-applied systemic insecticide, can control whitefly nymphs but can harm natural enemies, honey bees, and pollinators and cause spider mite outbreaks. Other pesticides should be avoided as they kill natural enemies and can lead to resistance in whiteflies. It's best to spray in the early evening when plants are not drought-stressed and temperatures are below 90°F to avoid damage to plants."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="12" />
+
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

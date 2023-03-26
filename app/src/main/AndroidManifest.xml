@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.imagepro">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ImagePro"
+        android:exported="true">
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:exported="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER"
+                    />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CameraActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Walkthrough"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AboutUs"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Dashboard"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Contact"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Aphids"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Cutworms"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Leaf_Miners"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Slugs"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Whiteflies"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

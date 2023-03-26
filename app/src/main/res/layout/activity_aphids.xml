@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F9F9"
+    android:orientation="vertical"
+    android:id="@+id/scrollView3">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_conversion_absoluteHeight="5957dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="411dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/bluraphids"
+            android:orientation="vertical"
+            android:scaleType="centerCrop">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="228dp"
+                android:layout_height="154dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="35dp"
+                android:foregroundGravity="center_horizontal"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="5dp"
+                app:strokeColor="@color/white">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="#000000"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/aphids1" />
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15sp"
+                    android:text="Aphids"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Also known as: "
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="85dp"
+                    android:text="Aphidoidea"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="italic|bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Plant Louse, Greenfly, Ant Cow"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="italic|bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="85dp"
+                    android:text="Scientific Name:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="115dp"
+                    android:text="Local Name:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="115dp"
+                    android:text="siriwsiw"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="italic|bold" />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            app:cardCornerRadius="0dp"
+            android:layout_marginTop="14dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/image"
+                    android:alpha="0.3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="14dp"
+                    android:text="Images of Aphids"
+                    android:textColor="#9B9B9B"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:columnCount="2"
+                    android:rowCount="2"
+                    android:padding="10dp">
+
+                    <ImageView
+
+                        android:layout_width="10px"
+                        android:layout_height="10px"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="1dp"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/a1" />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/a2"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:padding="10dp"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/a3"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:layout_rowWeight="1" />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/a4"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:layout_rowWeight="1" />
+                    <ImageView
+                        android:layout_width="10px"
+                        android:layout_height="10px"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="1dp"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/a5" />
+                    <ImageView
+                        android:layout_width="10px"
+                        android:layout_height="10px"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="1dp"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/a6" />
+
+                    <!-- Add more ImageViews here for the rest of the grid -->
+                </GridLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/description" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="14dp"
+                    android:text="Description"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="50dp"
+                    android:padding="14dp"
+                    android:text="Aphids are tiny, soft-bodied insects that consume by pressing their narrow mouthparts into the phloem cells, which serve as plants' food storage organs. The majority of aphid species exclusively consume one type of plant, and those that are closely related to one another frequently consume plants of the same kind."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/characteristic"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="14dp"
+                    android:text="Characteristics"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Size"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="70dp"
+                    android:text="2-4mm"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="108dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/color"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="95dp"
+                    android:text="Color"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/rectangle_shape" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Green"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/rectangle_black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Black"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="98dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="133dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/rectangle_red" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Red"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="145dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="176dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/rectangle_yellow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yellow"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="183dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/rectangle_brown" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brown"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="227dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="265dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/rectangle_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gray"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="275dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="148dp"
+                    android:text="Habitat"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="168dp"
+                    android:paddingRight="20dp"
+                    android:text="The eggs can survive the winter and they thrive on plants, particularly on the new growth and buds. Although aphids grow in colonies, when their host plant is stressed or overrun with them, they will switch to another plant."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/distributionarea"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Distribution Area"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="50dp"
+                    android:padding="14dp"
+                    android:text="Common in temperate zones."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="73dp"
+                    android:padding="14dp"
+                    android:text="Most plants in yards and gardens."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/bug"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Scientific Classification"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Genus: "
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Acyrthosiphon"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="85dp"
+                    android:text="Aphididae"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="85dp"
+                    android:text="Family:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Order:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Hemiptera"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="135dp"
+                    android:text="Class:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="135dp"
+                    android:text="Insecta"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Phylum:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Anthropoda"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1140dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/identify"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="How to identify it?"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="12"
+                    android:columnCount="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="15dp"
+                        android:textStyle="bold"
+                        android:text="Adult"
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="Adult aphids can be recognized by their substantially bigger size compared to their nymphs or the existence of wings. The mature aphids can then lay eggs, reproduce sexually, or survive the winter."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/aadult"
+                        android:layout_column="0"
+                        android:layout_row="2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nymph"
+                        android:textColor="#797979"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:textStyle="bold"
+                        android:layout_column="0"
+                        android:layout_row="3" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="4"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="The young aphid, or nymph, has the same appearance to the adult, but only smaller. The nymphs consume the plant as they grow and shed their exoskeleton. This shedding occurs several times until the aphid has reached its adult size. Although they are smaller, aphid nymphs often have shorter antennae and occasionally have wing bugs where their wings will eventually develop."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/anymphs"
+                        android:layout_column="0"
+                        android:layout_row="5" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Egg"
+                        android:textColor="#797979"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:textStyle="bold"
+                        android:layout_column="0"
+                        android:layout_row="6" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="7"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="The appearance of an aphid eggs are elongate oval, 0.48 mm long, and 0.23 mm wide and can be glued to a plant stem or leaf or attached with threads. The color of an aphid eggs can be black, yellow, or orange. Asexual reproduction allows aphids to reproduce without laying eggs and produce live nymph clones."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/aegg"
+                        android:layout_column="0"
+                        android:layout_row="8" />
+
+
+
+                </GridLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/damage"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Damage"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="3"
+                    android:columnCount="1">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Low to moderate numbers of leaf-feeding aphids aren't usually damaging in gardens or on trees. However, large populations can turn leaves yellow and stunt shoots; aphids can also produce large quantities of a sticky exudate known as honeydew, which often turns black with the growth of a sooty mold fungus. Some aphid species inject a toxin into plants, which causes leaves to curl and further distorts growth. A few species cause gall formations."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="0" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:text="Aphids can spread viruses from plant to plant in certain crops, such as squash, cucumber, potato, and lettuce, causing mottling, yellowing, curling of leaves, and stunted growth. Controlling aphids to prevent the spread of these viruses is difficult as only a few aphids are needed to transmit the virus and it takes longer to kill them with insecticides. This leads to significant losses in these crops."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="2"
+                        android:layout_column="0"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:text="Aphids can attack various parts of plants, not just leaves and shoots. Some examples include lettuce root aphid (attacks lettuce roots, causes wilting and death), woolly apple aphid (infests apple roots and limbs, causes tree decline), and crown and root aphids (infests carrots, weakens tops)."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1050dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/prevention"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Preventions"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="8"
+                    android:columnCount="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:text="Monitor your plants."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_column="0"
+                    android:layout_row="0"/>
+
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pa1"
+                    android:layout_column="0"
+                    android:layout_row="1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:text="Check for ants."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_column="0"
+                    android:layout_row="2"/>
+
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pa2"
+                    android:layout_column="0"
+                    android:layout_row="3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:text="Plant onions."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_column="0"
+                    android:layout_row="4"/>
+
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pa3"
+                    android:layout_column="0"
+                    android:layout_row="5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:text="Don’t over fertilize your plants."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_column="0"
+                    android:layout_row="6"/>
+
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pa4"
+                    android:layout_column="0"
+                    android:layout_row="7"/>
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1450dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/solution"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Solutions"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="20"
+                    android:columnCount="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cultural Control"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="0" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Before planting vegetables, check nearby areas for aphid sources and remove them. Aphids can build up on weeds such as sow thistle and mustards, which can later move to crop seedlings. However, these infested weeds can also provide natural enemies to aphids. Inspect transplants for aphids before planting and remove them."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_column="0"
+                    android:layout_row="1" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="For localized aphid populations, pruning affected leaves or shoots is the best control method. In big trees, aphids often live in the dense inner canopy, so pruning can make the area less suitable for them."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_column="0"
+                    android:layout_row="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="High levels of nitrogen fertilizer promote aphid reproduction, so use only the necessary amount. Use a less soluble form of nitrogen and apply it in smaller amounts throughout the season instead of all at once. Slow-release fertilizers like organic or urea-based time-release formulations are recommended."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_column="0"
+                    android:layout_row="3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To reduce damage from aphids, especially during the seedling stage, grow seedlings under protective covers such as in a greenhouse, inside, or in the garden, and then transplant them when they are older and more tolerant of aphid feeding. This will also prevent the spread of aphid-borne viruses."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_column="0"
+                    android:layout_row="4" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To reduce aphid populations on strong plants, use a strong spray of water to knock off the insects. Most aphids knocked off won't be able to return and the honeydew will be washed away. Spraying early in the day allows plants to dry quickly in the sun and reduces the risk of fungal diseases."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_column="0"
+                    android:layout_row="5" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Biological Control"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="5dp"
+                    android:layout_column="0"
+                    android:layout_row="9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Natural enemies are crucial in controlling aphids in gardens not treated with broad-spectrum pesticides, as these pesticides kill both pests and natural enemy species, but their populations may not become significant until aphid numbers increase."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_column="0"
+                    android:layout_row="10" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Important natural enemies of aphids are various species of parasitic wasps that lay their eggs inside aphids, leading to the formation of a mummy and substantial reduction of the aphid population within a week or two, when warm weather accelerates the generation time of the parasites."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_column="0"
+                    android:layout_row="11" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Predators, such as lady beetles, lacewing larvae, soldier beetles, and syrphid fly larvae, are effective in controlling aphid populations and are more beneficial when occurring naturally, especially in gardens and landscapes."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:layout_column="0"
+                    android:layout_row="12" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chemical Control"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="5dp"
+                    android:layout_column="0"
+                    android:layout_row="13" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Insecticidal soaps and oils are the best choice for controlling aphids and are most effective when thorough coverage of infested foliage is achieved, especially the undersides of leaves, using a 1 to 2% solution in water. These products can temporarily kill some natural enemies, but leave no toxic residue and are best for garden and landscape situations."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_column="0"
+                    android:layout_row="14" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Many other insecticides are available to control aphids in the home garden and landscape, including foliar-applied formulations of malathion, permethrin, and acephate (nonfood crops only), but their use should be limited as they can also kill natural enemies and have bee kills and environmental problems associated with them, and repeated applications may lead to resistance."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Systemic insecticides like imidacloprid can effectively control serious aphid infestations, but should be avoided due to negative impacts on predators, parasitoids and pollinators, and only be used if soaps and oils are not adequate. They should not be applied to blooming plants."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="16" />
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

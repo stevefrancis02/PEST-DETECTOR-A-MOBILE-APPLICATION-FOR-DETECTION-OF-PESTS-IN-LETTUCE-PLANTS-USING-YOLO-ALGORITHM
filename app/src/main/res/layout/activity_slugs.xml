@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F9F9"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/ppslugblur"
+            android:orientation="vertical"
+            android:scaleType="centerCrop">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="228dp"
+                android:layout_height="154dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="35dp"
+                android:foregroundGravity="center_horizontal"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="5dp"
+                app:strokeColor="@color/white">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="#000000"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:src="@drawable/ppslug" />
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15sp"
+                    android:text="Slugs"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Also known as: "
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="85dp"
+                    android:text="Gastropoda"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="italic|bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="60dp"
+                    android:text="gastropod mollusks, pteropods"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="italic|bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="85dp"
+                    android:text="Scientific Name:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Local Name:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="110dp"
+                    android:text="igod"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="italic|bold" />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            app:cardCornerRadius="0dp"
+            android:layout_marginTop="14dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/image"
+                    android:alpha="0.3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="14dp"
+                    android:text="Images of Slugs"
+                    android:textColor="#9B9B9B"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:columnCount="2"
+                    android:rowCount="2"
+                    android:padding="10dp">
+
+                    <ImageView
+
+                        android:layout_width="10px"
+                        android:layout_height="10px"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="1dp"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/slug1" />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/slug2"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        android:padding="10dp"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/slug3"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:layout_rowWeight="1" />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/slug4"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:layout_rowWeight="1" />
+                    <ImageView
+                        android:layout_width="10px"
+                        android:layout_height="10px"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="1dp"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/slug5" />
+                    <ImageView
+                        android:layout_width="10px"
+                        android:layout_height="10px"
+                        android:layout_rowWeight="1"
+                        android:layout_margin="1dp"
+                        android:layout_columnWeight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/slug6" />
+
+                    <!-- Add more ImageViews here for the rest of the grid -->
+                </GridLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/description" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="14dp"
+                    android:text="Description"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="50dp"
+                    android:padding="14dp"
+                    android:text='Slug is a common word for any gastropod mollusc that resembles a snail and has a very small, internal shell or none at all. The term "snail" is used to refer to the majority of coiled-shelled gastropod mollusks. Simply put, a slug is a snail without a shell, or one with an interior plate as opposed to an exterior shell, or one with an external shell that is very small or composed of granules. '
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/characteristic"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="14dp"
+                    android:text="Characteristics"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Size"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="70dp"
+                    android:text="1-6 in"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="108dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/color"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="95dp"
+                    android:text="Color"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="70dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/hazel_brown" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hazel-Brown"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="57dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="70dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/ginger_brown" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ginger-Brown"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="132dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="70dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="203dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/dark_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dark-Gray"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="218dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="70dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginTop="120dp"
+                    android:background="@drawable/jet_black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jet-Black"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="295dp"
+                    android:layout_marginTop="124dp"
+                    android:textSize="10sp"
+                    android:layout_gravity="center" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="148dp"
+                    android:text="Habitat"
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="168dp"
+                    android:paddingRight="20dp"
+                    android:text="Slugs travel on moist leaves, mulch, and soil, and their preferred habitats are highly populated gardens. Smaller than a pea or as large as your thumb, slugs all leave a slime trail in their wake as they go. Slugs can multiply quickly in the right circumstances and lay their eggs in moist compost and soil."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/distributionarea"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Distribution Area"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="50dp"
+                    android:padding="14dp"
+                    android:text="All over the world."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="73dp"
+                    android:padding="14dp"
+                    android:text="Cultivated areas such as agricultural field crops, backyard gardens, roadside, parks, meadow, damp, dark habitats, or homes."
+                    android:textColor="#797979"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/bug"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Scientific Classification"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Genus: "
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Rumina Risso"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="85dp"
+                    android:text="Subulinidae"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="85dp"
+                    android:text="Family:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Order:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="110dp"
+                    android:text="Pulmonata"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="135dp"
+                    android:text="Class:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="135dp"
+                    android:text="Gastropoda"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Phylum:"
+                    android:textColor="#9B9B9B"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Mollusca"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1400dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/identify"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="How to identify it?"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="12"
+                    android:columnCount="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="15dp"
+                        android:textStyle="bold"
+                        android:text="Adult"
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="Adult slug have moist, soft, elongated bodies, a head with paired tentacles and brown- black in color. Adult slug have weighs more than 200 mg and about 1.5 inches long and now has the capacity to produce eggs. Adult slugs overwinter and can lay clutches of eggs when environmental conditions are right."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sadult"
+                        android:layout_column="0"
+                        android:layout_row="2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Juveline Slug"
+                        android:textColor="#797979"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:textStyle="bold"
+                        android:layout_column="0"
+                        android:layout_row="3" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="4"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="Juvenile slugs is present in moisture surface and it is not too hot. If conditions are unsuitable, juveniles and adults will rest under clods and debris, in burrows and soil cracks. Juveniles weigh between 11-100 mg."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sjuvenile"
+                        android:layout_column="0"
+                        android:layout_row="5" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Neonate Slug"
+                        android:textColor="#797979"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:textStyle="bold"
+                        android:layout_column="0"
+                        android:layout_row="6" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="7"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="A newly-hatched slug is called a neonate, young neonates weigh between 1-10 mg."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sneonate"
+                        android:layout_column="0"
+                        android:layout_row="8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Egg"
+                        android:textColor="#797979"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:textStyle="bold"
+                        android:layout_column="0"
+                        android:layout_row="9" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="10"
+                        android:layout_column="0"
+                        android:paddingTop="6dp"
+                        android:paddingBottom="10dp"
+                        android:text="Small, round, pearl-like, translucent  eggs are laid in clusters of a dozen or more in sheltered cavities near the soil surface or under residue on the soil surface, if the soil is moist. As eggs mature they turn white and can take from 2 weeks to a month to hatch, depending on the environmental conditions."
+                        android:textColor="#797979"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/segg"
+                        android:layout_column="0"
+                        android:layout_row="11" />
+
+
+
+                </GridLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/damage"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Damage"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="3"
+                    android:columnCount="1">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Snails and slugs cause damage to plants by feeding on them and creating irregular holes with smooth edges on leaves and flowers with their rasp-like tongues, and can easily clip small succulent plant parts."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="0" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Snails and slugs primarily damage seedlings, herbaceous plants, turfgrass seedlings, ripening fruits close to the ground, young plant bark and foliage, and fruit of some trees, particularly citrus."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="1" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Snail and slug damage can be confused with feeding by other pests such as earwigs, caterpillars, or other chewing insects. Look for silvery mucous trails to confirm that slugs or snails caused the damage, rather than other pests."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="2" />
+
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="2500dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/prevention"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Preventions"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="25"
+                    android:columnCount="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Line your borders with upturned eggshells. The sharp edges will stop slugs sliding past."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="0"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ps1"
+                        android:layout_column="0"
+                        android:layout_row="1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Create a rough area around your plants with sand or gravel to make it harder for the slugs to reach the plants they have their hungry eyes on."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="2"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ps2"
+                        android:layout_column="0"
+                        android:layout_row="3"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Companion planting and repelling plants."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="4"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ps3"
+                        android:layout_column="0"
+                        android:layout_row="5"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="A less favorable but nevertheless effective method of slug elimination is to actually remove them by hand. You'll be amazed by how many slugs you can collect on a damp evening."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="6"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ps4"
+                        android:layout_column="0"
+                        android:layout_row="7"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Predators, like frogs and newts, help keep the slug population down, so plants near ponds are already at an advantage."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="8"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ps5"
+                        android:layout_column="0"
+                        android:layout_row="9"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Ducks feed on slugs, particularly Khaki Campbells and Indian Runners."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="10"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ps6"
+                        android:layout_column="0"
+                        android:layout_row="11"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="For those who don't fancy getting their hands slimy, try laying down a damp newspaper on a hot day. Slugs will slither under it to seek shelter. At the end of the day, collect the paper and the slugs."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="12"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ps7"
+                        android:layout_column="0"
+                        android:layout_row="13"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Next time you're at the beach, collect seaweed. Not only is the green stuff great for your soil, but it acts as a natural slug repellent. Mulch it around the perimeter of your plant bed, but make sure it's not in direct contact with your plant stems."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="14"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ps8"
+                        android:layout_column="0"
+                        android:layout_row="15"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="8dp"
+                        android:text="Placing a protective barrier of hair around plants will deter slugs. Head to your hairbrush or bog bed to source it."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:layout_column="0"
+                        android:layout_row="16"/>
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ps9"
+                        android:layout_column="0"
+                        android:layout_row="17"/>
+
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1500dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="14dp"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="1sp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/solution"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Solutions"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:rowCount="20"
+                    android:columnCount="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cultural Control"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="0" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Place vegetable gardens or susceptible plants as far away from snail and slug hiding areas as possible. Reducing hiding places allows fewer snails and slugs to survive. The survivors congregate in the remaining shelters, where you can more easily locate and remove them."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Switching from sprinkler irrigation to drip irrigation will reduce humidity and moist surfaces, making the habitat less favorable for these pests. Irrigating near sunrise will reduce the amount of time that foliage and ground are moist."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Solarizing the soil—a technique that uses a clear plastic tarp and the sun's heat—is a good way to kill eggs in raised beds. Eggs will also rapidly dry if on the soil surface. If snail eggs are detected in the bed or garden, shallow cultivation will bring them to the soil surface to dry out."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Eggs will also rapidly dry if on the soil surface. If snail eggs are detected in the bed or garden, shallow cultivation will bring them to the soil surface to dry out."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Snails and slugs can be trapped in the garden and landscape using boards, flower pots, or inverted melon rinds and wooden traps made of 12- by 15-inch boards with 1-inch runners to make it easy for pests to crawl underneath."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Some people use beer-baited traps buried at ground level to catch and drown slugs and snails that fall into them. Because it is the fermented part of the product that attracts these pests, you can also use a sugar-water and yeast mixture instead of beer."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="6" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Beer/yeast traps are used to attract slugs and snails within a few feet, but the bait must be replenished every few days to keep it deep enough to drown the pests. Traps should have deep sides and a lid to reduce evaporation and prevent the pests from crawling out. They can be bought or made by burying a container with a lid that has holes cut into it."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="7" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Biological Control"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Snails and slugs have many natural enemies, including ground beetles, rats, pathogens, snakes, toads, turtles, and both domestic and wild birds. Most are rarely effective enough to provide satisfactory control in the garden."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="10dp"
+                        android:layout_column="0"
+                        android:layout_row="9" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chemical Control"
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="10" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Several types of snail and slug bait products (molluscicides) are available. Snail and slug baits can be effective when used properly and in conjunction with a cultural program that incorporates the other methods discussed above. Baits alone will not effectively control snails or slugs in the long term. Baits are also toxic to all snails and slugs, including the predatory decollate snail and native species."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="11" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Iron phosphate baits are safe for use around children, domestic animals, birds, fish, and other wildlife, and are listed as acceptable for use in organic systems, making them a good choice for an integrated pest management program in gardens."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="12" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Some formulations of iron phosphate include the insecticide spinosad to increase the spectrum of pests controlled (e.g. Sluggo Plus). Spinosad is an insecticide that will control earwigs and cutworms. These products can also be used in organic systems."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="13" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ferric sodium EDTA (found in products like Eliminator Snail and Slug Killer and Corry's Snail and Slug Killer) works similarly to iron phosphate, but is faster in killing snails and slugs in 3 days instead of 7, though it is not labeled for organic use."
+                        android:textColor="#797979"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:layout_column="0"
+                        android:layout_row="14" />
+
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
